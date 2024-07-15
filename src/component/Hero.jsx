@@ -100,7 +100,7 @@ const Hero = () => {
                   initial="hidden"
                   animate="visible"
                   rel="noopener noreferrer"
-                  href="#"
+                  href="#contact"
                   className="px-8 py-3 text-lg font-semibold border rounded dark:border-gray-800"
                 >
                   Contact

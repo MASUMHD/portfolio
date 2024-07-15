@@ -9,11 +9,11 @@ const Navbar = () => {
                 
             </div>
             <div className="m-8 flex items-center gap-4 text-2xl lg:text-3xl ml-0 lg:ml-10 mr-0 lg:mr-10">
-            <FaLinkedin />
-            <FaSquareGithub />
-            <FaSquareInstagram />
-            <FaFacebookSquare />
-            <FaSquareXTwitter />
+            <a href="https://www.linkedin.com/in/md-masum-billah-4436982a5/"><FaLinkedin /></a>
+            <a href="https://github.com/MASUMHD"><FaSquareGithub /></a>
+            <a href="https://www.instagram.com/ma_s_um_bi_ll_ah/"><FaSquareInstagram /></a>
+            <a href="https://www.facebook.com/masumrifath"><FaFacebookSquare /></a>
+            <a href=""><FaSquareXTwitter /></a>
             </div>
         </nav>
     );

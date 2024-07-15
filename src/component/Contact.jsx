@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <div className="border-b border-neutral-900 pb-20">
+    <div id="contact" className="border-b border-neutral-900 pb-20">
       <section className="py-6 mt-10">
         <div className="text-center mb-20">
           <motion.h1i
@@ -67,6 +67,7 @@ const Contact = () => {
                   </h4>
                 </h3>
               </div>
+
             </motion.div>
           </div>
           {/* Contact form */}
@@ -131,6 +132,9 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      <div>
+        <button></button>
+      </div>
     </div>
   );
 };
